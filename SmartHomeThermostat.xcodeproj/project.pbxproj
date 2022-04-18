@@ -11,6 +11,8 @@
 		6A5211D4280CCA1F005FA913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5211D3280CCA1F005FA913 /* ContentView.swift */; };
 		6A5211D6280CCA20005FA913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5211D5280CCA20005FA913 /* Assets.xcassets */; };
 		6A5211D9280CCA20005FA913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5211D8280CCA20005FA913 /* Preview Assets.xcassets */; };
+		6A66BAC0280CD70500FF6B99 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66BABF280CD70500FF6B99 /* Extensions.swift */; };
+		6A66BAC2280CDBFD00FF6B99 /* ClimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A66BAC1280CDBFD00FF6B99 /* ClimateCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6A5211D3280CCA1F005FA913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A5211D5280CCA20005FA913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A5211D8280CCA20005FA913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A66BABF280CD70500FF6B99 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6A66BAC1280CDBFD00FF6B99 /* ClimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				6A5211D1280CCA1F005FA913 /* SmartHomeThermostatApp.swift */,
 				6A5211D3280CCA1F005FA913 /* ContentView.swift */,
+				6A66BAC1280CDBFD00FF6B99 /* ClimateCard.swift */,
+				6A66BABF280CD70500FF6B99 /* Extensions.swift */,
 				6A5211D5280CCA20005FA913 /* Assets.xcassets */,
 				6A5211D7280CCA20005FA913 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5211D4280CCA1F005FA913 /* ContentView.swift in Sources */,
+				6A66BAC2280CDBFD00FF6B99 /* ClimateCard.swift in Sources */,
+				6A66BAC0280CD70500FF6B99 /* Extensions.swift in Sources */,
 				6A5211D2280CCA1F005FA913 /* SmartHomeThermostatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
